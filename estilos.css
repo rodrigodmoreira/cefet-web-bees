@@ -1,0 +1,103 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(0deg, #1c9c82 -100%, white 75%);
+    font-size: 20px;
+    margin: 0% 10%;
+
+    /* ajustes */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    text-align: justify;
+}
+
+#logomarca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho {
+    background-color: rgba(255,255,255, .30);
+    box-shadow: 4px 4px 4px #0003;
+    padding: 30px;
+
+    /* ajustes */
+    box-shadow: 0px 1px 4px #0003;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.curiosidade {
+    background-image: url('imgs/favo-de-mel.png');
+    border: 1px solid #e99b16;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 37px;
+}
+
+.curiosidade > img {
+    float: left;
+    margin-right: 20px;
+}
+
+a:link {
+    color: #1e836f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7c9731;
+}
+
+a:active {
+    color: #bfc72d;
+}
+
+a:visited {
+    color: #23474b;
+}
+
+a[href^='http'] {
+    background-color: #e9fe29;
+}
+
+body > p:last-of-type {
+    text-align: end;
+}
+
+img:not([alt]) {
+    border-color: red;
+}
+
+
+/* operarias / zangoes */
+.casta-de-abelha {
+    border-radius: 50%;
+    border: 5px solid #e99b16;
+    shape-outside: circle(50%);
+}
+
+.esquerda {
+    float: left;
+    margin-right: 20px;
+}
+
+.direita {
+    float: right;
+    margin-left: 20px;
+}
+
+/* rainhas */
+.rainha {
+    margin-bottom: 20px;
+}
+
+.clear-float {
+    clear: left;
+}
